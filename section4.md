@@ -1,4 +1,32 @@
+<p align="center">
+  <img src="assets/images/chapter-4.svg" alt="" width="1200" height="630">
+</p>
+
 # 4. ブランチ操作
-- 作業: 作業内容を分けるために別ブランチを作る
-- 例: `git branch feature/login` で作成し、`git checkout feature/login` または `git switch feature/login` で移動する。
-- 目的: 主流の作業を壊さずに試験的な変更を進める
+
+> この章では「作業内容を分けるために別ブランチを作る」ための基本操作を学びます。
+
+| 項目 | 内容 |
+| --- | --- |
+| 作業 | 作業内容を分けるために別ブランチを作る |
+| 目的 | 主流の作業を壊さずに試験的な変更を進める |
+
+## コマンド例
+
+### 新しいブランチを作成して移動する場合
+
+```bash
+git switch -c feature/login
+```
+
+### すでに作成済みのブランチへ移動する場合
+
+```bash
+git switch feature/search
+```
+
+## ポイント
+
+新しいブランチを作ってそのまま移動するときは `git switch -c`、すでにあるブランチへ移動するときは `git switch` を使います。後者の例では、移動先ブランチがすでに作成済みであることが前提です。
+
+[← マニュアルの目次に戻る](gitmanual.md)
