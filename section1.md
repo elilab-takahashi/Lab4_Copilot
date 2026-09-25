@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-1.svg" alt="1. リポジトリ作成の章扉">
+  <img src="assets/images/chapter-1.svg" alt="1. リポジトリ作成の章扉" width="1200" height="630">
 </p>
 
 # 1. リポジトリ作成

@@ -1,7 +1,7 @@
 # Project
 
 <p align="center">
-  <img src="assets/images/git-manual-cover.svg" alt="Git操作マニュアルの表紙">
+  <img src="assets/images/git-manual-cover.svg" alt="Git操作マニュアルの表紙" width="1200" height="630">
 </p>
 
 ## Git 操作マニュアル

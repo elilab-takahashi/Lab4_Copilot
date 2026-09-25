@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-5.svg" alt="5. 履歴と戻し方の章扉">
+  <img src="assets/images/chapter-5.svg" alt="5. 履歴と戻し方の章扉" width="1200" height="630">
 </p>
 
 # 5. 履歴と戻し方
