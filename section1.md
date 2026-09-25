@@ -15,12 +15,12 @@
 
 ```bash
 git init
-git config user.name "名前"
-git config user.email "a@example.com"
+git config --global user.name "名前"
+git config --global user.email "a@example.com"
 ```
 
 ## ポイント
 
-最初にユーザー名とメールアドレスを設定しておくと、以降のコミット履歴をきれいに管理できます。
+最初に `--global` 付きでユーザー名とメールアドレスを設定しておくと、以降のコミット履歴を自分の情報で一貫して管理できます。
 
 [← マニュアルの目次に戻る](gitmanual.md)

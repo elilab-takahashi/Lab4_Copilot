@@ -16,11 +16,11 @@
 ```bash
 git log --oneline
 git restore file
-git restore --source=HEAD --staged --worktree file
+git restore --staged file
 ```
 
 ## ポイント
 
-`git restore file` は作業ツリーの変更を戻すときに使いやすい基本コマンドです。ステージング済みの内容まで含めて戻したい場合は、`--source=HEAD --staged --worktree` を付けて「どこまで戻すか」を明示すると安全です。
+`git restore file` は作業ツリーの変更を戻すときに使います。ステージングだけを取り消したいときは `git restore --staged file` を使い、作業ツリーに残したまま整理すると安全です。
 
 [← マニュアルの目次に戻る](gitmanual.md)

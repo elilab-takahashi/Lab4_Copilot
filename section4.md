@@ -14,13 +14,12 @@
 ## コマンド例
 
 ```bash
-git branch feature/login
-git checkout feature/login
+git switch -c feature/login
 git switch feature/login
 ```
 
 ## ポイント
 
-新しい機能や修正ごとにブランチを分けると、レビューや差し戻しがしやすくなります。
+新しいブランチを作ってそのまま移動するときは `git switch -c`、すでにあるブランチへ移動するときは `git switch` を使うと手順が分かりやすくなります。
 
 [← マニュアルの目次に戻る](gitmanual.md)
