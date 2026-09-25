@@ -19,7 +19,7 @@
 git switch -c feature/login
 ```
 
-### すでにあるブランチへ移動する場合
+### すでに作成済みのブランチへ移動する場合
 
 ```bash
 git switch feature/search
@@ -27,6 +27,6 @@ git switch feature/search
 
 ## ポイント
 
-新しいブランチを作ってそのまま移動するときは `git switch -c`、すでにあるブランチへ移動するときは `git switch` を使うと手順が分かりやすくなります。
+新しいブランチを作ってそのまま移動するときは `git switch -c`、すでにあるブランチへ移動するときは `git switch` を使います。後者の例では、移動先ブランチがすでに作成済みであることが前提です。
 
 [← マニュアルの目次に戻る](gitmanual.md)
