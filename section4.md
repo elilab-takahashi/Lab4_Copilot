@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-4.svg" alt="4. ブランチ操作の章扉" width="760">
+  <img src="assets/images/chapter-4.svg" alt="4. ブランチ操作の章扉">
 </p>
 
 # 4. ブランチ操作

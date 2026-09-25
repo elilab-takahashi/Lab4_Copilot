@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-5.svg" alt="5. 履歴と戻し方の章扉" width="760">
+  <img src="assets/images/chapter-5.svg" alt="5. 履歴と戻し方の章扉">
 </p>
 
 # 5. 履歴と戻し方
@@ -15,12 +15,12 @@
 
 ```bash
 git log --oneline
-git restore file
 git restore --staged file
+git restore file
 ```
 
 ## ポイント
 
-`git restore --staged file` はステージングだけを取り消し、作業ツリーの内容はそのまま残します。`git restore file` はインデックスにある内容を基準にして作業ツリーを戻すため、未コミットの変更内容は失われます。同じファイルに対して両方を順に使うと、最終的にステージングと作業ツリーの変更がどちらも元に戻ります。
+`git restore --staged file` はステージングだけを取り消し、作業ツリーの内容はそのまま残す独立した操作です。`git restore file` はインデックスにある内容を基準にして作業ツリーを戻すため、未コミットの変更内容は失われます。両方を戻したい場合は、先に `git restore --staged file`、次に `git restore file` の順で実行します。
 
 [← マニュアルの目次に戻る](gitmanual.md)

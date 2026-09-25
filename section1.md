@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-1.svg" alt="1. リポジトリ作成の章扉" width="760">
+  <img src="assets/images/chapter-1.svg" alt="1. リポジトリ作成の章扉">
 </p>
 
 # 1. リポジトリ作成
@@ -15,12 +15,12 @@
 
 ```bash
 git init
-git config --global user.name "名前"
-git config --global user.email "a@example.com"
+git config --local user.name "名前"
+git config --local user.email "a@example.com"
 ```
 
 ## ポイント
 
-`--global` を付けると、この PC で使う Git 全体にユーザー名とメールアドレスが適用されます。特定のリポジトリだけ別の情報にしたい場合は、同じ設定を `--local` 付きで上書きできます。
+この例では、現在のリポジトリで使うユーザー名とメールアドレスを `--local` 付きで設定しています。PC 全体で共通の設定を先に済ませたい場合は、同じ項目を `--global` 付きで登録できます。
 
 [← マニュアルの目次に戻る](gitmanual.md)
