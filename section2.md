@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-2.svg" alt="2. 状態確認の章扉" width="1200" height="630">
+  <img src="assets/images/chapter-2.svg" alt="" width="1200" height="630">
 </p>
 
 # 2. 状態確認

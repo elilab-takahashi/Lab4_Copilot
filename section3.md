@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/chapter-3.svg" alt="3. 変更の保存の章扉" width="1200" height="630">
+  <img src="assets/images/chapter-3.svg" alt="" width="1200" height="630">
 </p>
 
 # 3. 変更の保存
