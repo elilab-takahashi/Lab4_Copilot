@@ -13,10 +13,22 @@
 
 ## コマンド例
 
+### ステージングだけを取り消す場合
+
+```bash
+git restore --staged file
+```
+
+### 作業ツリー上の変更を破棄する場合
+
+```bash
+git restore file
+```
+
+### 履歴を確認する場合
+
 ```bash
 git log --oneline
-git restore --staged file
-git restore file
 ```
 
 ## ポイント

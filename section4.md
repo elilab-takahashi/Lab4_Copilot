@@ -13,12 +13,16 @@
 
 ## コマンド例
 
-```bash
-# 新しいブランチを作成して移動する
-git switch -c feature/login
+### 新しいブランチを作成して移動する場合
 
-# すでにあるブランチへ移動する
-git switch feature/login
+```bash
+git switch -c feature/login
+```
+
+### すでにあるブランチへ移動する場合
+
+```bash
+git switch feature/search
 ```
 
 ## ポイント
