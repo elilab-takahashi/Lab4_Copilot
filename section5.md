@@ -21,6 +21,6 @@ git restore file
 
 ## ポイント
 
-`git restore --staged file` はステージングだけを取り消し、作業ツリーの内容はそのまま残す独立した操作です。`git restore file` はインデックスにある内容を基準にして作業ツリーを戻すため、未コミットの変更内容は失われます。両方を戻したい場合は、先に `git restore --staged file`、次に `git restore file` の順で実行します。
+`git restore --staged file` はステージングだけを取り消し、作業ツリーの内容はそのまま残す操作です。`git restore file` はインデックスにある内容を基準にして作業ツリーを戻すため、未コミットの変更内容は失われます。どちらを使うかは、「ステージだけ外したいか」「作業ツリーの変更も破棄したいか」で選びます。
 
 [← マニュアルの目次に戻る](gitmanual.md)
