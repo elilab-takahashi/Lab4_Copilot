@@ -15,12 +15,12 @@
 
 ```bash
 git init
-git config --local user.name "名前"
-git config --local user.email "a@example.com"
+git config --global user.name "名前"
+git config --global user.email "a@example.com"
 ```
 
 ## ポイント
 
-このリポジトリで使うユーザー名とメールアドレスを `--local` 付きで設定しておくと、ここで作成するコミット履歴を誰の作業か分かる形で残せます。
+最初に `--global` 付きでユーザー名とメールアドレスを設定しておくと、この PC で行う今後のコミット履歴を自分の情報で一貫して残せます。
 
 [← マニュアルの目次に戻る](gitmanual.md)
