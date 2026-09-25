@@ -21,6 +21,6 @@ git restore --staged file
 
 ## ポイント
 
-`git restore file` は作業ツリーの変更を戻すときに使います。ステージングだけを取り消したいときは `git restore --staged file` を使い、作業ツリーに残したまま整理すると安全です。
+`git restore file` は、インデックスにある内容を基準にして作業ツリーの変更を戻すコマンドです。ステージングだけを取り消したいときは `git restore --staged file` を使うと、作業ツリーの内容を残したまま整理できます。
 
 [← マニュアルの目次に戻る](gitmanual.md)
