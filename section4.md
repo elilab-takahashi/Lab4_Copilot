@@ -14,7 +14,10 @@
 ## コマンド例
 
 ```bash
+# 新しいブランチを作成して移動する
 git switch -c feature/login
+
+# すでにあるブランチへ移動する
 git switch feature/login
 ```
 

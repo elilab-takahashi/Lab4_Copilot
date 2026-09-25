@@ -15,12 +15,12 @@
 
 ```bash
 git init
-git config --local user.name "名前"
-git config --local user.email "a@example.com"
+git config --global user.name "名前"
+git config --global user.email "a@example.com"
 ```
 
 ## ポイント
 
-この例では、`git init` でリポジトリを作成したあとに、そのリポジトリで使うユーザー名とメールアドレスを `--local` 付きで設定しています。PC 全体で共通の設定を先に済ませたい場合は、同じ項目を `--global` 付きで登録できます。
+まずは `--global` 付きでユーザー名とメールアドレスを設定しておくと、この PC で使う Git 全体に同じ情報を適用できます。特定のリポジトリだけ別の情報にしたい場合は、そのリポジトリ作成後に `--local` 付きで上書きします。
 
 [← マニュアルの目次に戻る](gitmanual.md)
